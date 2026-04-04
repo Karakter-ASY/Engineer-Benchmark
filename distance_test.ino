@@ -9,12 +9,12 @@ float distance=0;
  float x=0;
 
 void distance_test(){ 
-  
+ 
   Serial.begin(9600);
   pinMode(echo,INPUT);
   pinMode(trig,OUTPUT);
   randomNum=random(60,300);
-  //Serial.print("rais your hand to this distance:");    // may be change it with the lid but i think serial messages is more easy for audiance
+  //Serial.print("rais your hand to this distance:");   
   //Serial.println(randomNum);
   //Serial.println("You have 5 seconds...");
   delay(5000);
