@@ -1,4 +1,4 @@
-import serial   
+import serial
 import time
 
 PORT = '/dev/ttyUSB0'
